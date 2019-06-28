@@ -14,6 +14,7 @@
 		2C74041A22C6682100863BAC /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C74041922C6682100863BAC /* Movie.swift */; };
 		2C74041C22C669BF00863BAC /* MovieController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C74041B22C669BF00863BAC /* MovieController.swift */; };
 		2C74041E22C675F400863BAC /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C74041D22C675F400863BAC /* MovieTableViewCell.swift */; };
+		2C74042022C6768A00863BAC /* MovieTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C74041F22C6768A00863BAC /* MovieTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		2C74041922C6682100863BAC /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		2C74041B22C669BF00863BAC /* MovieController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieController.swift; sourceTree = "<group>"; };
 		2C74041D22C675F400863BAC /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
+		2C74041F22C6768A00863BAC /* MovieTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 		2C74041822C6674F00863BAC /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				2C74041F22C6768A00863BAC /* MovieTableViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -189,6 +192,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C74042022C6768A00863BAC /* MovieTableViewController.swift in Sources */,
 				2C74041C22C669BF00863BAC /* MovieController.swift in Sources */,
 				2C74041A22C6682100863BAC /* Movie.swift in Sources */,
 				2C74041E22C675F400863BAC /* MovieTableViewCell.swift in Sources */,

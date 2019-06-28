@@ -14,9 +14,9 @@ struct TopLevelJSON: Codable {
 
 struct Movie: Codable {
     let title: String
-    let rating: Int
+    let rating: Double
     let overview: String
-    let poster: String
+    let poster: String?
     
     enum CodingKeys: String, CodingKey {
         case title

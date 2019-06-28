@@ -13,6 +13,6 @@ class MovieTableViewCell: UITableViewCell {
     @IBOutlet weak var movieImageView: UIImageView!
     @IBOutlet weak var movieTitleLabel: UILabel!
     @IBOutlet weak var movieRatingLabel: UILabel!
-    @IBOutlet weak var movieOverviewLabel: UILabel!
+    @IBOutlet weak var movieOverviewTextView: UITextView!
     
 }

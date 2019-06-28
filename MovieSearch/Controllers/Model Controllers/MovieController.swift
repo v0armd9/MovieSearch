@@ -46,9 +46,10 @@ class MovieController {
     
     static func fetchImageFor(movie: Movie, completion: @escaping (UIImage?) -> Void) {
         guard var baseURL = URL(string: "https://image.tmdb.org/t/p") else {completion(nil); return}
+        guard let posterExtension = movie.poster else {return}
         
         baseURL.appendPathComponent("original")
-        baseURL.appendPathComponent(movie.poster)
+        baseURL.appendPathComponent(posterExtension)
         
         URLSession.shared.dataTask(with: baseURL) { (data, _, error) in
             if let error = error {
